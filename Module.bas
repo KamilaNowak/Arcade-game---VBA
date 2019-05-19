@@ -1,10 +1,11 @@
-Attribute VB_Name = "Module1"
+
 Option Explicit
 Public InGame As Boolean  ' on game
 Public CurrentInGame As Boolean      ' currently on game
 Public ClicksCounter, ClicksNow, SecondsNow As Integer
 Public Leftt, Up, LeftMax, UpMax, UpMin As Integer
 Public Interval As String
+
 Sub auto_open()
 LeftMax = Window.Width - Window.Character.Width
 UpMax = Window.Height - Window.Character.Height
